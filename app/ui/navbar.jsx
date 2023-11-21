@@ -1,16 +1,15 @@
-'use client'
+//import { useRouter } from "next/navigation";
+import Link from "next/link";
 
-import { useRouter } from "next/navigation";
-
-export default function navbar(navbar) {
-const router = useRouter();
+export default function navbar(navbar, link) {
+//const router = useRouter();
     return(
-        <nav className="w-screen h-20 shadow-md bg-white">
-            <div className="w-screen flex justify-center items-center h-20">
+        <nav className="w-screen h-16 shadow-md bg-white">
+            <div className="w-screen flex justify-center items-center h-16">
                 <ul className="flex flex-row gap-5">
-                    <li onClick={() => router.push('/about')}>{navbar.text1}</li>
-                    <li>{navbar.text2}</li>
-                    <li>{navbar.text3}</li>
+                    <li><Link href="/">{navbar.text1}</Link></li>
+                    <li><Link href="/about">{navbar.text2}</Link></li>
+                    <li><Link href="/dashboard">{navbar.text3}</Link></li>
                     <li>{navbar.text4}</li>
                     <li>{navbar.text5}</li>
                 </ul>
