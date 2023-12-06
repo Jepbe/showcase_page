@@ -6,7 +6,7 @@ export default function Page() {
         <Navbar
               text1="navbar1"
               text2="about"
-              text3="dashboard"  
+              text3="projects"  
               text4="navbar4"  
               text5="navbar5"
         />

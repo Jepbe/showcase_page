@@ -9,7 +9,7 @@ export default function navbar(navbar, link) {
                 <ul className="flex flex-row gap-5">
                     <li><Link href="/">{navbar.text1}</Link></li>
                     <li><Link href="/about">{navbar.text2}</Link></li>
-                    <li><Link href="/dashboard">{navbar.text3}</Link></li>
+                    <li><Link href="/projects">{navbar.text3}</Link></li>
                     <li>{navbar.text4}</li>
                     <li>{navbar.text5}</li>
                 </ul>
