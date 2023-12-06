@@ -1,1 +1,1 @@
-## NextJS 13 Tailwind template 
+## NextJS 14 Tailwind template 
