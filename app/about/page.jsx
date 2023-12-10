@@ -10,7 +10,7 @@ export default function Page() {
               text4="navbar4"  
               text5="navbar5"
         />
-        <h1>Hello, World!</h1>
+        
         </>
     );
 }
