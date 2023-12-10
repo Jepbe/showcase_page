@@ -6,7 +6,7 @@ export default function projects() {
 <div class="min-h-screen py-12 flex items-center justify-center md:flex-row flex-col">
       
         {/* box 1 */}
-      <div className="py-6 px-4 bg-[#545d68] text-[#ADBAC7]"> 
+      <div className="py-6 px-4 bg-[#545d68] text-[#ADBAC7] m-5"> 
         {/* Header text */}
         <div className="left-0 top-0 text-lg"> 
         arduino_I2C_LCD
