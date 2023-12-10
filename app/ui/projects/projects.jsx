@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function projects() {
     return (
-<div class="min-h-screen py-12 flex items-center justify-center">
+<div class="min-h-screen py-12 flex items-center justify-center md:flex-row flex-col">
       
         {/* box 1 */}
       <div className="py-6 px-4 bg-[#545d68] text-[#ADBAC7]"> 
