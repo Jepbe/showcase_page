@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "arduino_I2C_LCD",
+        "content": "This is a Arduino project. The project was about learning how the arduino I2C LCD display works. We also conected a Ultrasonic distance sensor and displayed its output on the lcd screen",
+        "GitHub": "https://github.com/ZBC-Slagelse-HTX-X/arduino_I2C_LCD/tree/main"
+    },
+    {
+        "id": 2,
+        "title": "arduino_ball_game",
+        "content": "This is a Arduino project. The project was about learning how the arduino I2C LCD display works. We also conected a Ultrasonic distance sensor and displayed its output on the lcd screen",
+        "GitHub": "https://github.com/ZBC-Slagelse-HTX-X/arduino_I2C_LCD/tree/main"
+    }
+]
